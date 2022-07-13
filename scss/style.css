@@ -62,7 +62,7 @@ p {
 }
 .portfolio__button {
   width: 150px;
-  height: 80px;
+  height: 50px;
   background-color: #33266E;
 }
 .portfolio__card {
@@ -79,4 +79,13 @@ p {
 .contact {
   background-color: #542F34;
   height: 362px;
+}
+
+.footer__top {
+  background-color: #222222;
+  height: 80px;
+}
+.footer__bottom {
+  background-color: #111111;
+  height: 80px;
 }/*# sourceMappingURL=style.css.map */
