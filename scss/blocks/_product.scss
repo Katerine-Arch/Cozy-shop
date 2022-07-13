@@ -1,0 +1,173 @@
+.product {
+
+    &__carousel {
+        min-height: 777px;
+
+        @include tablet {
+            min-height: 624px;
+        }
+
+        @include mobile {
+            min-height: 454px;
+        }
+    }
+    
+    &__carousel-margin {
+        @include mobile {
+            margin: 85px 0 0 0;
+        }
+    }
+
+    &__carousel-slide {
+        background-color: $color-carousel;
+    }
+
+    &__carousel-img {
+        margin: 0 auto;
+
+        @include tablet {
+        width: 274px;
+        height: auto;
+        }
+
+        @include mobile {
+            //width: 473px;
+            height: auto;
+            }
+    }
+
+    &__catalog {
+        padding: 129px 0 0 0;
+        min-height: 837px;
+
+        @include mobile {
+            padding: 64px 0 0 0;
+        }
+    }
+
+    &__description {
+        width: 71%;
+        background-color: $color-card;
+        margin-top: -3.25rem;
+        border: 1px solid $color-carousel;
+    }
+
+    &__description-cart {
+        
+    }
+
+    &__description-about {
+        //max-height: 50%;
+        width: 59%;
+        margin-left: 20%;
+        padding: 65px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        @include tablet {
+            width: 80%;
+            margin-left: 10%;
+            }
+
+        @include tablet {
+            width: 86%;
+            margin: 0 auto;
+        }
+           
+    }
+
+    &__red-line {
+        //width: 63px;
+        color: #EF5B70;
+        border: 1px solid;
+        margin: 12px 0 12px 0;
+    }
+
+    &__grey-line {
+        margin: 36px 0 0 0;
+    }
+
+    &__description-red {
+        @include product-red;
+    }
+    
+    &__description-grey {
+        @include product-grey;
+    }
+
+    &__description-text {
+        @include text;
+        padding: 48px 0 32px 0;
+        margin: 0 auto;
+    }
+
+    &__description-price {
+        @include header-p;
+        padding: 0;
+    }
+
+    &__description-dropdown {
+        width: 32%;
+        margin-left: 33%;
+        display: flex;
+        justify-content: space-evenly;
+        //padding: 0 0 41px 0;
+
+        @include tablet {
+            padding: 0;
+        }
+        
+        @include mobile {
+            //margin-left: 1%;
+            padding: 50px 0 65px 0;
+        }
+    } 
+ 
+    &__description-button {
+        margin: 64px 0 48px 0;
+        color: #6F6E6E;
+        background-color: $color-card;
+        border: none;
+        
+        @include tablet {
+            margin: 24px 0 40px 0;
+        }
+        
+        @include mobile {
+            margin: 0;
+        }
+    }
+
+    &__description-button {
+        text-align: center;
+    }
+
+    &__button-margin {
+        margin: 0 0 65px 0;;
+    }
+
+    &__description-btn {
+        width: 211px;
+        height: 48px;
+        border-color: $color-text-red;
+    }
+
+    &__btn-href {
+        text-decoration: none;
+        color: $color-text-red;
+        position: relative;
+    }
+
+    &__btn-href::before {
+        content: "";
+        width: 26px;
+        height: 24px;
+        background-image: url(/img/cart-red.png);
+        position: absolute;
+        left: -40px;
+    }
+}
+
+
+

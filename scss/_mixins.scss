@@ -1,0 +1,202 @@
+@mixin block {
+    display: block; 
+ }
+ @mixin flexible () {
+     display: flex;
+     justify-content: space-between;
+ }
+ @mixin flex-center {
+     display: flex;
+     align-items: center;
+ }
+ @mixin item-size () {
+     width: 32%;
+     //min-height: 260px;
+ }
+ @mixin tablet {
+    @media (max-width: $tablet-width) {
+        @content;
+    }
+}
+@mixin mobile {
+    @media (max-width: $mobile-width) {
+        @content;
+    }
+}
+@mixin font($font-size, $line-height, $font-weight: 400, $font-style: normal) { 
+    font-size: $font-size;
+    line-height: $line-height;
+    font-weight: $font-weight;
+    font-style: $font-style;
+}
+ @mixin font-family {
+    @include font(16px, 19px);
+    font-family: Lato;
+ }
+ @mixin brand-title {
+    @include font(48px, 58px, 900);
+ }
+ @mixin brand-title-tablet {
+    @include font(44px, 53px, 900)
+ }
+ @mixin brand-title-mobile {
+    @include font(38px, 46px, 900)
+ }
+ @mixin brand-subtitle {
+    @include font(31px, 37px, 700);
+ }
+ @mixin brand-subtitle-tablet {
+    @include font(24px, 29px, 700);
+ }
+ @mixin brand-subtitle-mobile {
+    @include font(20px, 24px, 700);
+ }
+ @mixin h2 {
+    @include font(30px, 36px, 400);
+     text-align: center;
+     text-transform: $offer-text;
+     color: $color-bg;
+ }
+ @mixin h3 {
+    @include font(16px, 19.2px);
+    text-transform: $offer-text;
+    color: $color-text;
+ }
+ @mixin h4 {
+    @include font(19.96px,24px);
+     margin: 0 0 16px 0;
+     color: $color-text-footer;
+ }
+ @mixin icon {
+     background-color: transparent;
+     border: none;
+ }
+ @mixin offer__img {
+     //min-width: 232px;
+     min-height: 260px;
+     //background-color: rgba(33, 22, 22, 0.7);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-position: center;
+     background-image: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+
+     @include tablet{
+        min-height: 168px;
+    }
+
+    @include mobile {
+        min-height: 247px;
+    }
+ }
+ @mixin header-p {
+    @include font(24px, 29px);
+     padding: 59px 0 0 0;
+     text-transform: $offer-text;
+     color: $color-text-red;
+ }
+ @mixin header-link {
+    @include font(14px, 17px);
+     //padding: 0 0 11px 64px;
+     color: $color-link;
+ }
+ @mixin product-grey {
+    @include font(18px, 21px, 300);
+     color: $color-link;
+     text-transform: $offer-text;
+ }
+ @mixin product-red {
+    @include font(14px, 17px, 300);
+     color: $color-text-red;
+     text-transform: $offer-text;
+ }
+ @mixin p-text {
+    @include font(16px, 19px);
+     text-align: center;
+     text-transform: $offer-text;
+     color: $color-text;
+ }
+ @mixin p-text-red {
+    @include font(25px, 28.8px);
+     color: $color-text-red;
+     text-align: center;
+     font-weight: bold;
+     top: 123px;
+     /*position: absolute;*/
+     left: 30%;
+     text-transform: $offer-text;
+ }
+ @mixin text {
+    @include font(14px, 17px);
+     color: #9F9F9F;
+     text-align: center;
+ }
+ @mixin registration-text {
+    @include font(24px, 29px);
+ }
+ @mixin registration-form {
+    @include font(16px, 19px, 300);
+     color: $color-bg;
+ }
+ @mixin registration-text-info {
+    @include font(13px, 16px, 300);
+     color: $color-reg-text;
+     width: 359px;
+     margin: 0 0 39px 0;
+ }
+ @mixin footer__about-text {
+    @include font(20px, 24px);
+     color: $color-bg-footer;
+     text-align: center;
+ }
+ @mixin footer__about-text-mobile{
+    @include font(19px, 22.8px, 400)
+ }
+ @mixin text-footer {
+    @include font(13.972px, 17px, 300);
+     text-align: center;
+     color: $color-text-footer;
+ }
+ @mixin footer__sub-text-bold {
+    @include font(24px, 167.2%, 700);
+     color: $color-bg-footer;
+     font-weight: bold;
+     text-transform: $offer-text;
+ }
+ @mixin footer__subscrybe-text {
+    @include font(18px, 30.1px);
+     text-align: center;
+     text-transform: $offer-text;
+ }
+ @mixin footer__subscrybe-text-mobile {
+    @include font(14px, 21.45px);
+ }
+ @mixin footer_ct {
+     padding-top: 30px;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 19px;
+     color: #FBFBFB;
+ }
+ @mixin v-h {
+     position: fixed;
+     transform: scale(0);
+ }
+ @mixin catalog__text-about {
+    @include font(13px, 15.6px, 300);
+     color: $color-bg;
+     margin: 25px 0 18px 0;
+ }
+ 
+@mixin cart-button {
+    @include font(11px, 13px, 300);
+    width: 100px;
+    height: 34px;
+    color: $color-border-reg;
+    background-color: $color-text;
+    border-color: #A4A4A4;
+    text-transform: $offer-text;
+}
+

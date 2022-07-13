@@ -1,0 +1,15 @@
+@import './_reset';
+@import "./_variables";
+@import "./_mixins";
+@import "./_general";
+@import "./_bootstrap";
+
+@import "./blocks/_header";
+@import "./blocks/_top";
+@import "./blocks/_catalog";
+@import "./blocks/_main";
+@import "./blocks/_product";
+@import "./blocks/_registration";
+@import "./blocks/_offer";
+@import "./blocks/_cart";
+@import "./blocks/_footer";

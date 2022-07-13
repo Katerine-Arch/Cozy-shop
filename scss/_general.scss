@@ -1,0 +1,36 @@
+
+* {    padding: 0;
+    margin: 0;
+}
+
+body {
+    @include font-family;
+}
+
+.container {
+    max-width: 71%;
+    margin: 0 auto;
+
+    @include tablet{
+        max-width: 100% !important; 
+    }
+
+    @include mobile {
+        max-width: 100% !important;
+    }
+}
+
+.visually-hidden {
+    @include v-h();
+}
+
+/* .video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100vh;
+    z-index: 0;
+
+    &__p {
+        position: relative;
+    }
+}*/ 
