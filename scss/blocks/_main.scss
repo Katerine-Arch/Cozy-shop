@@ -1,0 +1,34 @@
+.carousel {
+    background-color: $bgc-3;
+    height: 777px;
+}
+
+.portfolio {
+    background-color: $bgc-2;
+    height: 2910px;
+
+    &__button {
+        width: 150px;
+        height: 80px;
+        background-color: $bgc-5;
+    }
+
+    &__card {
+        width: 360px;
+        height: 692px;
+        border: 2px solid $bgc-4;
+    }
+}
+
+.favourites {
+    background-color: $bgc-1;
+    height: 631px;  
+}
+
+.contact {
+    background-color: $bgc-3;
+    height: 362px;  
+}
+
+
+

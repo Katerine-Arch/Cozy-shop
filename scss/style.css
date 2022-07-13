@@ -35,4 +35,48 @@ blockquote:before, blockquote:after, q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+p {
+  color: #696969;
+}
+
+.top {
+  background-color: #111111;
+  height: 44px;
+}
+
+.top-menu {
+  background-color: #222222;
+  height: 80px;
+}
+
+.carousel {
+  background-color: #542F34;
+  height: 777px;
+}
+
+.portfolio {
+  background-color: #222222;
+  height: 2910px;
+}
+.portfolio__button {
+  width: 150px;
+  height: 80px;
+  background-color: #33266E;
+}
+.portfolio__card {
+  width: 360px;
+  height: 692px;
+  border: 2px solid #806543;
+}
+
+.favourites {
+  background-color: #111111;
+  height: 631px;
+}
+
+.contact {
+  background-color: #542F34;
+  height: 362px;
 }/*# sourceMappingURL=style.css.map */
