@@ -20,15 +20,13 @@
 
 <body>
 
-    <header>
+    <header class="header__bg">
         <section class="top">
-            <nav class="navbar navbar-dark bg-nav">
+            <nav class="navbar navbar-dark bg-nav nav-fix">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Brand</a>
-                    <a class="nav-link active" aria-current="page" href="#">Ткани</a>
-                    <a class="nav-link" href="#">Мягкие стены</a>
-                    <a class="nav-link" href="#">Мебель</a>
-                    <a class="nav-link disabled">Контакты</a>
+                    <a class="navbar-brand" href="#">
+                        <h1> CoZy </h1>
+                    </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -36,19 +34,42 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Features</a>
-                            <a class="nav-link" href="#">Pricing</a>
-                            <a class="nav-link disabled">Disabled</a>
+                            <a class="nav-link active" aria-current="page" href="#">Ткани</a>
+                            <a class="nav-link" href="#">Мягкие стены</a>
+                            <a class="nav-link" href="#">Мебель</a>
+                            <a class="nav-link disabled">Контакты</a>
                         </div>
                     </div>
                 </div>
             </nav>
         </section>
         <section class="top-menu">
-            <p></br>Верхнее меню в версии для ПК. Исчезает при прокрутке</p>
+
+            <nav class="navbar navbar-dark bg-nav">
+                <div class="container"></div>
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <h1> CoZy </h1>
+                    </a>
+                    <a class="nav-link active" aria-current="page" href="#">Ткани</a>
+                    <a class="nav-link" href="#">Мягкие стены</a>
+                    <a class="nav-link" href="#">Мебель</a>
+                    <a class="nav-link disabled">Контакты</a>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Ткани</a>
+                            <a class="nav-link" href="#">Мягкие стены</a>
+                            <a class="nav-link" href="#">Мебель</a>
+                            <a class="nav-link disabled">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </nav>
+
         </section>
     </header>
+
     <main>
         <section class="carousel carousel-padding">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -84,20 +105,44 @@
             </div>
         </section>
         <section class="portfolio">
-            <p>Портфолио - по 3 картинки в ряд, 4-9 рядов. При прокрутке появляется по 1ой линиикартинок и внизу кнопка
-            </p>
-            <ul class="row">
-                <li class="portfolio__card col-6 col-lg-4">1</li>
-                <li class="portfolio__card col-6 col-lg-4">2</li>
-                <li class="portfolio__card col-6 col-lg-4">3</li>
-                <li class="portfolio__card col-6 col-lg-4">4</li>
-            </ul>
+            <div class="container">
 
-            <button class="portfolio__button">Посмотреть всё</button>
+                <h2 class="portfolio__header">Портфолио </h2>
+
+                <ul class="row justify-content-evenly">
+                    <li class="portfolio__card col-4">1</li>
+                    <li class="portfolio__card col-4">2</li>
+                    <li class="portfolio__card col-4">1</li>
+                    <li class="portfolio__card col-4">2</li>
+                    <li class="portfolio__card col-4">1</li>
+                    <li class="portfolio__card col-4">2</li>
+                    <li class="portfolio__card col-4">1</li>
+                    <li class="portfolio__card col-4">2</li>
+                    <li class="portfolio__card col-4">1</li>
+                    <li class="portfolio__card col-4">2</li>
+                </ul>
+
+                <div class="portfolio__btn container">
+                    <button class="portfolio__button">Посмотреть всё</button>
+                </div>
+            </div>
         </section>
         <section class="favourites">
-            <p>Избранные подборки - 2 картинки сверху квадратные (1-лучшая мебель -- стул, пуфик и тд, 2 разжвижные
-                двери из коровы) и одна внизу длинная (3-лучшая стена в кинозале/кабинете) </p>
+            <div class="container">
+
+            </div>
+            <h2 class="portfolio__header"> Для Вас </h2>
+
+            <div class="row justify-content-evenly">
+
+                <div class="portfolio__card col-5">.Избранные подборки - 2 картинки сверху квадратные (1-лучшая
+                    мебель -- стул, пуфик и тд, 2 разжвижные
+                    двери из коровы) и одна внизу длинная (3-лучшая стена в кинозале/кабинете) </div>
+                <div class="portfolio__card col-5">.col-6<br>Subsequent columns continue along the new line.</div>
+                <div class="portfolio__card-10 col-10">.col-9</div>
+            </div>
+            </div>
+
         </section>
         <section class="contact">
             <p>Свяжитесь с нами</br>

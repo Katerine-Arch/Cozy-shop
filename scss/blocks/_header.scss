@@ -1,9 +1,16 @@
+.header {
+    &__bg {
+        //background: linear-gradient(280deg, rgba(0,0,0,1) 0%, rgba(94,91,91,1) 100%);
+    }
+}
+
 .top {
     background-color: $bgc-1;
-    height: 44px;  
+    //min-height: 57px;  
 }
 
 .top-menu {
     background-color: $bgc-2;
-    height: 80px;
+    //height: 80px;
+    padding: 5px 0 0 0;
 }
