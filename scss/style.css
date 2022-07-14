@@ -37,8 +37,23 @@ table {
   border-spacing: 0;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 71%;
+  margin: 0 auto;
+}
+
 p {
   color: #696969;
+}
+
+.navbar {
+  position: fixed !important;
+  width: 100% !important;
 }
 
 .top {
