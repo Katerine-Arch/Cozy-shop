@@ -62,27 +62,26 @@ p {
 }
 
 .carousel-padding {
-  padding: 7px 0 81px;
-}
-
-.top {
-  background-color: #111111;
+  padding: 150px 0 81px;
 }
 
 .top-menu {
-  background-color: #222222;
   padding: 5px 0 0 0;
 }
 
+.main__about {
+  color: #111111 !important;
+  text-align: center !important;
+  padding: 50px 0 0 0;
+}
+
 .carousel {
-  background-color: #542F34;
   height: 777px;
 }
 
 .portfolio {
-  background-color: #222222;
   min-height: 2000px;
-  padding: 120px 0 150px 0;
+  padding: 177px 0 150px 0;
 }
 .portfolio__header {
   padding: 0 0 120px 0;
@@ -91,6 +90,7 @@ p {
 }
 .portfolio__btn {
   text-align: center;
+  padding: 150px 0 0 0;
 }
 .portfolio__button {
   width: 250px;
@@ -99,8 +99,8 @@ p {
 }
 .portfolio__card {
   width: 360px;
-  height: 420px;
-  border: 2px solid #806543;
+  min-height: 420px;
+  border: 2px solid #806543 !important;
   margin: 0 27px 40px 0;
 }
 .portfolio__card-10 {
@@ -110,21 +110,17 @@ p {
 }
 
 .favourites {
-  background-color: #111111;
   min-height: 631px;
   padding: 70px 0 100px 0;
 }
 
 .contact {
-  background-color: #542F34;
   height: 362px;
 }
 
 .footer__top {
-  background-color: #222222;
   height: 80px;
 }
 .footer__bottom {
-  background-color: #111111;
   height: 80px;
 }/*# sourceMappingURL=style.css.map */
