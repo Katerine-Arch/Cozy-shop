@@ -51,6 +51,15 @@ p {
   color: #696969;
 }
 
+h1, h2, h5 {
+  font-family: "Cormorant SC", serif !important;
+}
+
+h2 {
+  font-size: 47px !important;
+  text-transform: uppercase;
+}
+
 .nav-fix {
   position: fixed !important;
   width: 100% !important;
@@ -58,11 +67,17 @@ p {
 
 .bg-nav {
   z-index: 100;
-  background: linear-gradient(280deg, rgb(0, 0, 0) 0%, rgb(94, 91, 91) 100%);
+  background: rgb(74, 88, 122);
+  background: linear-gradient(90deg, rgb(74, 88, 122) 0%, rgb(181, 167, 133) 100%);
 }
 
 .carousel-padding {
-  padding: 150px 0 81px;
+  padding: 80px 0 0;
+  background-color: #4a587a;
+}
+
+.carousel-height {
+  height: 550px;
 }
 
 .top-menu {
@@ -73,18 +88,20 @@ p {
   color: #111111 !important;
   text-align: center !important;
   padding: 50px 0 0 0;
+  margin-bottom: 0;
 }
-
-.carousel {
-  height: 777px;
+.main__bgc-7 {
+  background-color: #4a587a;
 }
 
 .portfolio {
   min-height: 2000px;
-  padding: 177px 0 150px 0;
+  padding: 0 0 150px 0;
+  background: rgb(176, 162, 129);
+  background: linear-gradient(180deg, rgb(176, 162, 129) 0%, rgb(210, 202, 181) 100%);
 }
 .portfolio__header {
-  padding: 0 0 120px 0;
+  padding: 80px 0 90px 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -102,16 +119,28 @@ p {
   min-height: 420px;
   border: 2px solid #806543 !important;
   margin: 0 27px 40px 0;
+  background-color: #7e745d !important;
+}
+.portfolio__card-margin {
+  margin: 10px 0 0 0;
 }
 .portfolio__card-10 {
   height: 210px;
   border: 2px solid #806543;
   margin: 50px 27px 40px 0;
 }
+.portfolio__bgc-8 {
+  background-color: #b5a785;
+}
+.portfolio__list {
+  padding: 80px 0 0 0;
+}
 
 .favourites {
   min-height: 631px;
   padding: 70px 0 100px 0;
+  background: rgb(74, 88, 122);
+  background: linear-gradient(0deg, rgb(74, 88, 122) 0%, rgb(210, 202, 181) 72%);
 }
 
 .contact {

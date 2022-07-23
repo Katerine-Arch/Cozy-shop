@@ -3,21 +3,28 @@
         color: $bgc-1 !important;
         text-align: center !important;
         padding: 50px 0 0 0;
+        margin-bottom: 0;
+    }
+
+    &__bgc-7 {
+        background-color: $bgc-7;
     }
 }
 
 .carousel {
     //background-color: $bgc-3;
-    height: 777px;
+    //height: 777px;
 }
 
 .portfolio {
     //background-color: $bgc-2;
     min-height: 2000px;
-    padding: 177px 0 150px 0;
+    padding: 0 0 150px 0;
+    background: rgb(176,162,129);
+background: linear-gradient(180deg, rgba(176,162,129,1) 0%, rgba(210,202,181,1) 100%);
 
     &__header {
-        padding: 0 0 120px 0;
+        padding: 80px 0 90px 0;
         text-align: center;
         text-transform: uppercase;
     }
@@ -38,6 +45,11 @@
         min-height: 420px;
         border: 2px solid $bgc-4 !important;
         margin: 0 27px 40px 0;
+        background-color: #7e745d !important;
+    }
+
+    &__card-margin {
+        margin: 10px 0 0 0;
     }
 
     &__card-10 {
@@ -45,12 +57,23 @@
         border: 2px solid $bgc-4;
         margin: 50px 27px 40px 0;
     }
+
+    &__bgc-8 {
+        background-color: $bgc-8;
+    }
+
+    &__list {
+        padding: 80px 0 0 0;
+
+    }
 }
 
 .favourites {
     //background-color: $bgc-1;
     min-height: 631px;  
     padding: 70px 0 100px 0;
+    background: rgb(74,88,122);
+    background: linear-gradient(0deg, rgba(74,88,122,1) 0%, rgba(210,202,181,1) 72%);
 }
 
 .contact {
