@@ -15,8 +15,30 @@ background: linear-gradient(90deg, rgba(74,88,122,1) 0%, rgba(181,167,133,1) 100
 .carousel-padding {
     padding: 80px 0 0;
     background-color: $bgc-7;
+    min-height: 700px;
 }
 
 .carousel-height {
     height: 550px;
+    min-height: 700px;
+}
+
+.btn-bg {
+    background-color: $bgc-3 !important;
+    border: none !important;
+    color: $bgc-8 !important;
+    width: 250px;
+    font-size: 25px !important;
+    padding: 0 !important;
+    text-transform: uppercase;
+}
+
+.btn-bg:hover {
+    border: none !important;
+}
+
+.card-text {
+    font-size: 24px;
+    line-height: 92%;
+    padding: 20px 0 10px 0;
 }

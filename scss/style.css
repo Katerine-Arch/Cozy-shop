@@ -48,15 +48,21 @@ table {
 }
 
 p {
-  color: #696969;
+  color: #090704 !important;
 }
 
-h1, h2, h5 {
+h1, h2, h5, p, a {
   font-family: "Cormorant SC", serif !important;
 }
 
 h2 {
-  font-size: 47px !important;
+  font-size: 96px !important;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 45px !important;
+  line-height: 20px !important;
   text-transform: uppercase;
 }
 
@@ -74,10 +80,32 @@ h2 {
 .carousel-padding {
   padding: 80px 0 0;
   background-color: #4a587a;
+  min-height: 700px;
 }
 
 .carousel-height {
   height: 550px;
+  min-height: 700px;
+}
+
+.btn-bg {
+  background-color: #542F34 !important;
+  border: none !important;
+  color: #b5a785 !important;
+  width: 250px;
+  font-size: 25px !important;
+  padding: 0 !important;
+  text-transform: uppercase;
+}
+
+.btn-bg:hover {
+  border: none !important;
+}
+
+.card-text {
+  font-size: 24px;
+  line-height: 92%;
+  padding: 20px 0 10px 0;
 }
 
 .top-menu {
@@ -96,7 +124,7 @@ h2 {
 
 .portfolio {
   min-height: 2000px;
-  padding: 0 0 150px 0;
+  padding: 0 0 70px 0;
   background: rgb(176, 162, 129);
   background: linear-gradient(180deg, rgb(176, 162, 129) 0%, rgb(210, 202, 181) 100%);
 }
@@ -110,9 +138,20 @@ h2 {
   padding: 150px 0 0 0;
 }
 .portfolio__button {
-  width: 250px;
-  height: 50px;
-  background-color: #231a4d;
+  width: 350px;
+  height: 80px;
+  background-color: #cdb339;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 19px;
+  border-radius: 20px;
+}
+.portfolio__button:hover {
+  background-color: #e8eb2d;
+}
+.portfolio__button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
 }
 .portfolio__card {
   width: 360px;
@@ -138,13 +177,9 @@ h2 {
 
 .favourites {
   min-height: 631px;
-  padding: 70px 0 100px 0;
+  padding: 0 0 100px 0;
   background: rgb(74, 88, 122);
   background: linear-gradient(0deg, rgb(74, 88, 122) 0%, rgb(210, 202, 181) 72%);
-}
-
-.contact {
-  height: 362px;
 }
 
 .footer__top {

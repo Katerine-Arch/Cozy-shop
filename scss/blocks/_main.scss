@@ -19,9 +19,9 @@
 .portfolio {
     //background-color: $bgc-2;
     min-height: 2000px;
-    padding: 0 0 150px 0;
+    padding: 0 0 70px 0;
     background: rgb(176,162,129);
-background: linear-gradient(180deg, rgba(176,162,129,1) 0%, rgba(210,202,181,1) 100%);
+    background: linear-gradient(180deg, rgba(176,162,129,1) 0%, rgba(210,202,181,1) 100%);
 
     &__header {
         padding: 80px 0 90px 0;
@@ -35,10 +35,24 @@ background: linear-gradient(180deg, rgba(176,162,129,1) 0%, rgba(210,202,181,1) 
     }
 
     &__button {
-        width: 250px;
-        height: 50px;
-        background-color: $bgc-5;
+        width: 350px;
+        height: 80px;
+        background-color: $bgc-9;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 19px;
+        border-radius: 20px;
     }
+
+    &__button:hover {
+        background-color: $bgc-10;
+    }
+
+    &__button:focus {
+        outline: none;
+        box-shadow: 0 0 0 4px #cbd6ee;
+    }
+
 
     &__card {
         width: 360px;
@@ -71,14 +85,14 @@ background: linear-gradient(180deg, rgba(176,162,129,1) 0%, rgba(210,202,181,1) 
 .favourites {
     //background-color: $bgc-1;
     min-height: 631px;  
-    padding: 70px 0 100px 0;
+    padding: 0 0 100px 0;
     background: rgb(74,88,122);
     background: linear-gradient(0deg, rgba(74,88,122,1) 0%, rgba(210,202,181,1) 72%);
 }
 
 .contact {
     //background-color: $bgc-3;
-    height: 362px;  
+    //height: 362px;  
 }
 
 
