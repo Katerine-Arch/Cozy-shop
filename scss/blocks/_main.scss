@@ -2,12 +2,16 @@
     &__about {
         color: $bgc-1 !important;
         text-align: center !important;
-        padding: 50px 0 0 0;
+        //padding: 50px 0 0 0;
         margin-bottom: 0;
     }
 
     &__bgc-7 {
         background-color: $bgc-7;
+    }
+
+    &__h2-padding {
+        padding: 52px 0 22px 0;
     }
 }
 
@@ -93,6 +97,10 @@
 .contact {
     //background-color: $bgc-3;
     //height: 362px;  
+}
+
+.display-none {
+    display: none;
 }
 
 

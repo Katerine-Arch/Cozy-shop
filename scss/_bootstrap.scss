@@ -8,19 +8,21 @@
     z-index: 100;
     //background: #b5a785;
     //background: linear-gradient(280deg, #4a587a) 0%, #b5a785 100%);
-    background: rgb(74,88,122);
-background: linear-gradient(90deg, rgba(74,88,122,1) 0%, rgba(181,167,133,1) 100%);
+    background: #4a587a;
+    //background: linear-gradient(0deg, rgba(74,88,122,1) 67%, rgba(181,167,133,0.9444152661064426) 100%);
 }
 
 .carousel-padding {
-    padding: 80px 0 0;
-    background-color: $bgc-7;
+    padding: 15px 80px;
+    background: rgb(74,88,122);
+    background: linear-gradient(180deg, rgba(74,88,122,1) 0%, rgba(181,167,133,1) 60%);
+    //background-color: $bgc-7;
     min-height: 700px;
 }
 
 .carousel-height {
     height: 550px;
-    min-height: 700px;
+    //min-height: 700px;
 }
 
 .btn-bg {
@@ -41,4 +43,15 @@ background: linear-gradient(90deg, rgba(74,88,122,1) 0%, rgba(181,167,133,1) 100
     font-size: 24px;
     line-height: 92%;
     padding: 20px 0 10px 0;
+}
+
+.navbar-size {
+    font-size: 25px;
+    font-weight: 500;
+}    
+
+.navbar-open-size {
+    font-size: 25px;
+    font-weight: 500;
+    color: #c99fa6 !important;
 }
