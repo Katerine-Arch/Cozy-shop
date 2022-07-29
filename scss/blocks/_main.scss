@@ -8,10 +8,14 @@
 
     &__bgc-7 {
         background-color: $bgc-7;
+        //background-image: url(/img/2\ \(4\).jpg);
+        //background-repeat: no-repeat;
+        //background-position: center;
+        //background-size: contain;
     }
 
     &__h2-padding {
-        padding: 52px 0 22px 0;
+        padding: 12px 0 12px 0;
     }
 }
 
@@ -102,6 +106,16 @@
 .display-none {
     display: none;
 }
+
+.info {
+    background-color: $bgc-8;
+    
+}
+
+&__flex {
+display: flex;
+}
+
 
 
 

@@ -12,17 +12,36 @@
     //background: linear-gradient(0deg, rgba(74,88,122,1) 67%, rgba(181,167,133,0.9444152661064426) 100%);
 }
 
-.carousel-padding {
-    padding: 15px 80px;
-    background: rgb(74,88,122);
-    background: linear-gradient(180deg, rgba(74,88,122,1) 0%, rgba(181,167,133,1) 60%);
-    //background-color: $bgc-7;
-    min-height: 700px;
-}
+.carousel {
+    &-padding {
+        padding: 15px 80px;
+        background: rgb(74,88,122);
+        background: linear-gradient(180deg, rgba(74,88,122,1) 0%, rgba(181,167,133,1) 60%);
+        //background-color: $bgc-7;
+        min-height: 700px;
+    }
 
-.carousel-height {
-    height: 550px;
-    //min-height: 700px;
+    &-height {
+        height: 550px;
+        //min-height: 700px;
+    }
+
+    &-left {
+        left: -135px !important;
+    }
+
+    &-right {
+        right: -135px !important;
+    }
+
+    &__icon {
+        color: #A6606C;
+        font-size: 48px;
+    }
+
+    &__icon:hover {
+        color: #633940;
+    }
 }
 
 .btn-bg {
