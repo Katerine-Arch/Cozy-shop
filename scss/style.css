@@ -60,7 +60,7 @@ h2 {
 }
 
 h3 {
-  font-size: 96px !important;
+  font-size: 64px !important;
   text-transform: uppercase;
 }
 
@@ -300,7 +300,14 @@ h5 {
 
 .info {
   background-color: #b5a785;
+}
+.info__flex {
   display: flex;
+  justify-content: space-between;
+}
+.info__box {
+  width: 50%;
+  text-align: center;
 }
 
 .footer__top {

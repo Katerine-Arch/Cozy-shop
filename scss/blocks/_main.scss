@@ -110,12 +110,19 @@
 .info {
     background-color: $bgc-8;
     
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        }
+
+    &__box {
+        width: 50%;
+        text-align: center;
+    }
+        
 }
 
-&__flex {
-display: flex;
-justify-content: space-evenly;
-}
+
 
 
 
