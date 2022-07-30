@@ -18,17 +18,22 @@ h1, h2, h5, p, a {
 
 h2 {
     font-size: 42px !important;
+    
 }
 
 h3 {
     font-size: 64px !important;
     text-transform: uppercase;
     font-weight: 400 !important;
+    color: $bgc-1 !important;
+    padding: 20px;
 }
 
 h4 {
   font-size: 32px !important;
   padding: 19px 0 0 0;
+  color: $bgc-1 !important;
+  padding: 40px;
 }
 
 h5 {

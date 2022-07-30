@@ -63,11 +63,15 @@ h3 {
   font-size: 64px !important;
   text-transform: uppercase;
   font-weight: 400 !important;
+  color: #111111 !important;
+  padding: 20px;
 }
 
 h4 {
   font-size: 32px !important;
   padding: 19px 0 0 0;
+  color: #111111 !important;
+  padding: 40px;
 }
 
 h5 {
@@ -334,8 +338,13 @@ h5 {
   font-size: 1.3rem;
   margin: 0 0 20px 0;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.5;
   color: #806543;
+}
+.info__box-flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .fade-in {
