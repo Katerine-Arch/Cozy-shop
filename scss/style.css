@@ -379,6 +379,16 @@ h5 {
     opacity: 1;
   }
 }
+.img__flex {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0 25px 0;
+}
+.img__flex-size {
+  width: 25%;
+  height: auto;
+}
+
 .footer__top {
   height: 80px;
 }

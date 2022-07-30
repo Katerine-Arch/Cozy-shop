@@ -186,7 +186,18 @@
   }
   
 
+.img {
+    &__flex {
+        display: flex;
+        justify-content: space-evenly;;
+        padding: 0 0 25px 0;
+    }
 
+    &__flex-size {
+        width: 25%;
+        height: auto;
+    }
+}
 
 
 
