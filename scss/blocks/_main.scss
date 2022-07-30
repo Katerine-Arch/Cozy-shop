@@ -119,6 +119,25 @@
         width: 50%;
         text-align: center;
     }
+
+    &__box-list {
+        list-style-type: none;
+        font-size: 1.3rem;
+        margin: 0 0 20px 0;
+        font-weight: 400;
+        line-height: 1.2;
+        color: $bgc-4;
+    }
+
+    &__box-list::before {
+        content: " ";
+        width: 20px;
+        height: 16px;
+        position: absolute;
+        background-image: url(/img/check.png);
+        left: -26px;
+        top: 10px;
+    }
         
 }
 
