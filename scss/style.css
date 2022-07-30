@@ -300,6 +300,15 @@ h5 {
 
 .info {
   background-color: #b5a785;
+  /*&__box-list::before {
+      content: " ";
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      background-image: url(/img/icon.svg);
+      background-repeat: no-repeat;
+      right: 93%;
+  }*/
 }
 .info__flex {
   display: flex;
@@ -317,14 +326,9 @@ h5 {
   line-height: 1.2;
   color: #806543;
 }
-.info__box-list::before {
-  content: " ";
-  width: 20px;
-  height: 16px;
-  position: absolute;
-  background-image: url(/img/check.png);
-  left: -26px;
-  top: 10px;
+.info__box-icon {
+  color: red;
+  fill: #e8eb2d;
 }
 
 .footer__top {

@@ -129,16 +129,20 @@
         color: $bgc-4;
     }
 
-    &__box-list::before {
+    /*&__box-list::before {
         content: " ";
         width: 20px;
-        height: 16px;
+        height: 20px;
         position: absolute;
-        background-image: url(/img/check.png);
-        left: -26px;
-        top: 10px;
-    }
+        background-image: url(/img/icon.svg);
+        background-repeat: no-repeat;
+        right: 93%;
+    }*/
         
+    &__box-icon {
+        color: red;
+        fill: $bgc-10;
+    }
 }
 
 
