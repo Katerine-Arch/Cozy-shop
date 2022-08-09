@@ -304,6 +304,34 @@ h5 {
   background: linear-gradient(0deg, rgb(74, 88, 122) 0%, rgb(210, 202, 181) 72%);
 }
 
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 60px 0;
+}
+.contact__text {
+  width: 60%;
+}
+.contact__button {
+  padding: 50px 0 0 0;
+}
+.contact__btn {
+  width: 260px;
+  height: 43px;
+  background-color: #cdb339;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 167.2%;
+  border-radius: 20px;
+}
+.contact__btn:hover {
+  background-color: #e8eb2d;
+}
+.contact__btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px #cbd6ee;
+}
+
 .display-none {
   display: none;
 }

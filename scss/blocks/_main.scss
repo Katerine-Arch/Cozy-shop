@@ -101,6 +101,36 @@
 .contact {
     //background-color: $bgc-3;
     //height: 362px;  
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 60px 0;
+
+    &__text {
+        width: 60%;
+    }
+
+    &__button {
+        padding: 50px 0 0 0;
+    }
+
+    &__btn {
+        width: 260px;
+        height: 43px;
+        background-color: $bgc-9;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 167.2%;
+        border-radius: 20px;
+    }
+
+    &__btn:hover {
+        background-color: $bgc-10;
+    }
+
+    &__btn:focus {
+        outline: none;
+        box-shadow: 0 0 0 4px #cbd6ee;
+    }
 }
 
 .display-none {
