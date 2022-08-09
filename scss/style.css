@@ -312,6 +312,11 @@ h5 {
 .contact__text {
   width: 60%;
 }
+.contact__text-style {
+  font-weight: 800 !important;
+  font-size: 23px;
+  text-align: center;
+}
 .contact__button {
   padding: 50px 0 0 0;
 }
