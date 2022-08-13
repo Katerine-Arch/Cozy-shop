@@ -252,7 +252,7 @@ h5 {
 
 .intro {
   background: linear-gradient(180deg, rgb(74, 88, 122) 0%, rgb(181, 167, 133) 60%);
-  background-image: url(/img/2\ \(4\).jpg);
+  background-image: url(/img/3\ \(2\).jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   opacity: 0.7;
@@ -260,7 +260,7 @@ h5 {
 }
 .intro__text {
   width: 75% !important;
-  padding: 150px 0 0 0 !important;
+  padding: 90px 0 0 0 !important;
   text-align: center;
   color: #07050f;
 }
