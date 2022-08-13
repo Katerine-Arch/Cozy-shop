@@ -38,7 +38,7 @@
         //margin: 0 0 0 150px !important;
         padding: 90px 0 0 0 !important;
         text-align: center;
-        color: #07050f;
+        color: #ffffff;
     }
 }
 
@@ -165,6 +165,7 @@
 
 .info {
     background-color: $bgc-8;
+    padding: 50px 0 0 0;
     
     &__flex {
         display: flex;

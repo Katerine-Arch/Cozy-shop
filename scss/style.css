@@ -262,7 +262,7 @@ h5 {
   width: 75% !important;
   padding: 90px 0 0 0 !important;
   text-align: center;
-  color: #07050f;
+  color: #ffffff;
 }
 
 .portfolio {
@@ -364,6 +364,7 @@ h5 {
 
 .info {
   background-color: #b5a785;
+  padding: 50px 0 0 0;
   /*&__box-list::before {
       content: " ";
       width: 20px;
