@@ -422,6 +422,9 @@ h5 {
   height: auto;
 }
 
+.footer {
+  background: #4a587a;
+}
 .footer__top {
   height: 80px;
 }
