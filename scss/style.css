@@ -337,6 +337,8 @@ h5 {
   font-weight: 800 !important;
   font-size: 23px;
   text-align: center;
+  font-size: 28px;
+  line-height: 1.5;
 }
 .contact__button {
   padding: 50px 0 0 0;
