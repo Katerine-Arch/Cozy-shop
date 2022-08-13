@@ -1,5 +1,5 @@
 .footer {
-    background: #4a587a;
+    background: $bgc-footer;
     &__top {
         //background-color: $bgc-2;
         height: 80px;
@@ -7,6 +7,19 @@
 
     &__bottom {
         //background-color: $bgc-1;
-        height: 80px;
+        //height: 80px;
+        
+    }
+
+    &__bottom-position {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__bottom-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
     }
 }

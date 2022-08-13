@@ -22,6 +22,7 @@
 .carousel {
     //background-color: $bgc-3;
     //height: 777px;
+    display: none;
 }
 
 .portfolio {
@@ -164,7 +165,7 @@
         margin: 0 0 20px 0;
         font-weight: 400;
         line-height: 1.5;
-        color: $bgc-4;
+        color: #261e14;
     }
 
     &__box-flex {
@@ -237,7 +238,31 @@
     }
 }
 
+.top__style {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: $bgc-9;
+    background: $bgc-5;
+    box-shadow: 5px 10px 20px rgb(53 110 173 / 20%);
+    border-radius: 50px;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: contents;
+    /* margin-top: 71px; */
+    position: fixed;
+    z-index: 100000;
+    bottom: 30px;
+    right: 20px;
+    min-height: 30px;
+    display: block;
+    opacity: 0.7;
+}
 
+.top__style:hover {
+    color: $bgc-10;
+}
 
 
 
