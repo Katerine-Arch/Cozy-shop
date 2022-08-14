@@ -70,7 +70,23 @@
 }    
 
 .navbar-open-size {
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 500;
     color: #c99fa6 !important;
+}
+
+.nav-style {
+    border-radius: 30px;
+    height: 85px;
+}
+
+.nav-style:hover {
+    background-color: #333844;
+    //opacity: 0.8;
+    border-radius: 30px;
+}
+
+.container-fluid-flex {
+    display: flex;
+    justify-content: space-evenly !important;
 }
