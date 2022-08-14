@@ -9,6 +9,10 @@
         padding: 20px 0 20px;
         display: flex;
         justify-content: space-evenly;
+
+        @include mobile {
+            flex-direction: column;
+        }
     }
 
     &__top-navigation {
@@ -37,6 +41,11 @@
     &__bottom-position {
         display: flex;
         justify-content: space-evenly;
+
+        @include mobile {
+            min-height: 150px;
+            flex-direction: column;
+        }
     }
 
     &__bottom-text {

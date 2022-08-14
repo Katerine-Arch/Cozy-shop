@@ -1,3 +1,9 @@
+.mobile__display-none {
+    @include mobile {
+        display: none !important;
+    }
+}
+
 .main {
     &__about {
         color: $bgc-1 !important;
@@ -16,6 +22,10 @@
 
     &__h2-padding {
         padding: 60px 0 12px 0;
+
+        @include mobile {
+            padding: 0;
+        }
     }
 }
 
@@ -32,6 +42,10 @@
     background-repeat: no-repeat;
     opacity: 0.7;
     min-height: 550px;
+    
+    @include mobile {
+        min-height: 250px;
+    }
 
     &__text {
         width: 75% !important;
@@ -45,6 +59,10 @@
         font-size: 65px !important;
         font-weight: 600 !important;
         line-height: 0.9 !important;
+    }
+
+    @include mobile {
+        font-size: 35px !important;
     }
     }
 }
@@ -130,9 +148,17 @@
     justify-content: space-between;
     padding: 0 0 60px 0;
 
+    @include mobile {
+        flex-direction: column;
+    }
+
     &__text {
         width: 60%;
         
+    @include mobile {
+        width: 100%;
+    }    
+
     }
 
     &__text-style {
@@ -142,6 +168,11 @@
         text-align: center;
         font-size: 28px;
         line-height: 1.5;
+
+        @include mobile {
+        font-size: 18px;
+        line-height: 22px;
+        }
     }
 
     &__button {
@@ -155,6 +186,12 @@
         line-height: 22px;
         text-align: center;
         padding: 20px 0 20px 0;
+    }
+
+    &__mobile-center {
+        @include mobile {
+            text-align: center;
+        }
     }
 
     &__btn {
@@ -188,11 +225,20 @@
     &__flex {
         display: flex;
         justify-content: space-between;
+
+        @include mobile {
+            flex-direction: column;
         }
+        }
+
 
     &__box {
         width: 50%;
         text-align: center;
+
+        @include mobile {
+            width: 100%;
+        }
     }
 
     &__box-list {
@@ -202,6 +248,11 @@
         font-weight: 400;
         line-height: 1.5;
         color: #261e14;
+
+        @include mobile {
+        font-size: 18px;
+        line-height: 22px;
+        }
     }
 
     &__box-flex {
@@ -294,6 +345,10 @@
     min-height: 30px;
     display: block;
     opacity: 0.7;
+
+    @include mobile {
+        right: 20%;
+    }
 }
 
 .top__style:hover {
