@@ -483,8 +483,25 @@ h5 {
 .footer {
   background: #1d2330;
 }
-.footer__top {
-  height: 80px;
+.footer__top-flex {
+  padding: 20px 0 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer__top-navigation {
+  display: flex;
+  flex-direction: column;
+}
+.footer__top-list, .footer__top-link {
+  color: #090704;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 35px;
+  text-decoration: none;
+}
+.footer__top-list:hover, .footer__top-link:hover {
+  color: #e8eb2d;
 }
 .footer__bottom-position {
   display: flex;

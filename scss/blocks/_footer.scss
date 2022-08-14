@@ -2,13 +2,36 @@
     background: $bgc-footer;
     &__top {
         //background-color: $bgc-2;
-        height: 80px;
+        //height: 80px;
     }
 
+    &__top-flex {
+        padding: 20px 0 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__top-navigation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__top-list, &__top-link {
+        color: #090704;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 35px;
+        text-decoration: none;
+    }
+
+    &__top-list:hover, &__top-link:hover {
+        color: $bgc-10;
+    }
+    
     &__bottom {
         //background-color: $bgc-1;
         //height: 80px;
-        
     }
 
     &__bottom-position {
