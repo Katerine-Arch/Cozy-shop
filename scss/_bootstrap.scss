@@ -70,20 +70,40 @@
 }    
 
 .navbar-open-size {
-    font-size: 40px;
+    font-size: 37px;
     font-weight: 500;
     color: #c99fa6 !important;
+}
+
+.navbar-open-size:hover {
+    color: $bgc-8 !important;
 }
 
 .nav-style {
     border-radius: 30px;
     height: 85px;
+    transition: all 2s !important;
 }
 
 .nav-style:hover {
     background-color: #333844;
     //opacity: 0.8;
     border-radius: 30px;
+    cursor: pointer;
+    transform: scale(1.3);
+    outline: none;
+    //color: $bgc-8;
+}
+
+.nav__mini {
+
+    &-style {
+        min-height: 30px;
+    }
+
+    &-brand {
+       // margin: 5px 0 0 0;
+    }
 }
 
 .container-fluid-flex {

@@ -240,21 +240,32 @@ h5 {
 }
 
 .navbar-open-size {
-  font-size: 40px;
+  font-size: 37px;
   font-weight: 500;
   color: #c99fa6 !important;
+}
+
+.navbar-open-size:hover {
+  color: #b5a785 !important;
 }
 
 .nav-style {
   border-radius: 30px;
   height: 85px;
+  transition: all 2s !important;
 }
 
 .nav-style:hover {
   background-color: #333844;
   border-radius: 30px;
+  cursor: pointer;
+  transform: scale(1.3);
+  outline: none;
 }
 
+.nav__mini-style {
+  min-height: 30px;
+}
 .container-fluid-flex {
   display: flex;
   justify-content: space-evenly !important;
