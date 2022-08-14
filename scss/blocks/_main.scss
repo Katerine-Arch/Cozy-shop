@@ -31,7 +31,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     opacity: 0.7;
-    height: 777px;
+    min-height: 550px;
 
     &__text {
         width: 75% !important;
@@ -39,6 +39,13 @@
         padding: 90px 0 0 0 !important;
         text-align: center;
         color: #ffffff;
+    
+    @include tablet {
+        padding: 50px 0 0 0 !important;
+        font-size: 65px !important;
+        font-weight: 600 !important;
+        line-height: 0.9 !important;
+    }
     }
 }
 
