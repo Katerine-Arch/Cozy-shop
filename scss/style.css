@@ -188,7 +188,7 @@ h5 {
 
 .bg-nav {
   z-index: 100;
-  background: #4a587a;
+  background: #DCD45E;
 }
 
 .carousel-padding {
@@ -290,7 +290,7 @@ h5 {
   background-color: #4a587a;
 }
 .main__h2-padding {
-  padding: 60px 0 12px 0;
+  padding: 0 0 12px 0;
 }
 @media (max-width: 375px) {
   .main__h2-padding {
