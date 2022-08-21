@@ -17,12 +17,16 @@ p {
 }
 
 h1, h2, h5, p, a {
-    font-family: 'Cormorant SC', serif !important;
+    font-family: 'PT Serif', serif !important;
+}
+
+h1 {
+  color: $bgc-12;
 }
 
 h2 {
     font-size: 100px !important;
-    font-weight: 800 !important;
+    //font-weight: 800 !important;
     line-height: 1.5 !important;
 }
 

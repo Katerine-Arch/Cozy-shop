@@ -13,6 +13,12 @@
     //background: linear-gradient(0deg, rgba(74,88,122,1) 67%, rgba(181,167,133,0.9444152661064426) 100%);
 }
 
+.bg-nav-mini {
+    z-index: 100;
+    background: $bgc-14;
+}
+
+
 .carousel {
     &-padding {
         padding: 15px 80px;
@@ -66,18 +72,18 @@
 }
 
 .navbar-size {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 500;
 }    
 
 .navbar-open-size {
     font-size: 37px;
     font-weight: 500;
-    color: #c99fa6 !important;
+    color: $bgc-12 !important;
 }
 
 .navbar-open-size:hover {
-    color: $bgc-8 !important;
+    color: $bgc-13 !important;
 }
 
 .nav-style {
@@ -87,7 +93,7 @@
 }
 
 .nav-style:hover {
-    background-color: #333844;
+    background-color: $bgc-14;
     //opacity: 0.8;
     border-radius: 30px;
     cursor: pointer;
@@ -105,6 +111,14 @@
     &-brand {
        // margin: 5px 0 0 0;
     }
+
+    &-link {
+        color: $bgc-12 !important;
+    }
+}
+
+.nav-burger {
+    background-color: $bgc-4 !important;
 }
 
 .container-fluid-flex {
