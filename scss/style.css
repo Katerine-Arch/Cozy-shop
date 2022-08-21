@@ -89,9 +89,7 @@ h3 {
 
 h4 {
   font-size: 32px !important;
-  padding: 19px 0 0 0;
   color: #111111 !important;
-  padding: 40px;
 }
 
 h5 {
@@ -501,7 +499,7 @@ h5 {
 }
 .info__flex {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 @media (max-width: 375px) {
   .info__flex {
@@ -517,13 +515,16 @@ h5 {
     width: 100%;
   }
 }
+.info__box-h4 {
+  color: #FEE7A2 !important;
+}
 .info__box-list {
   list-style-type: none;
-  font-size: 1.3rem;
-  margin: 0 0 20px 0;
+  font-size: 28px;
+  margin: 0 0 35px 0;
   font-weight: 400;
-  line-height: 1.5;
-  color: #261e14;
+  line-height: 30px;
+  color: #FEE7A2;
 }
 @media (max-width: 375px) {
   .info__box-list {
@@ -536,7 +537,6 @@ h5 {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .fade-in {
   -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;

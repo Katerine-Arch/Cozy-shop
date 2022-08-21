@@ -229,7 +229,8 @@
     
     &__flex {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        //justify-content: space-between;
 
         @include mobile {
             flex-direction: column;
@@ -246,13 +247,17 @@
         }
     }
 
+    &__box-h4 {
+        color: $bgc-16 !important;
+    }
+
     &__box-list {
         list-style-type: none;
-        font-size: 1.3rem;
-        margin: 0 0 20px 0;
+        font-size: 28px;
+        margin: 0 0 35px 0;
         font-weight: 400;
-        line-height: 1.5;
-        color: #261e14;
+        line-height: 30px;
+        color: $bgc-16;
 
         @include mobile {
         font-size: 18px;
@@ -280,6 +285,10 @@
         color: red;
         fill: $bgc-10;
     }*/
+
+    &__icons {
+        
+    }
 }
 
 .fade-in {
