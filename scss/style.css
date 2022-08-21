@@ -517,6 +517,7 @@ h5 {
 }
 .info__box-h4 {
   color: #FEE7A2 !important;
+  margin: 0 0 35px 0 !important;
 }
 .info__box-list {
   list-style-type: none;
@@ -537,6 +538,15 @@ h5 {
   justify-content: space-evenly;
   align-items: center;
 }
+.info__icons {
+  padding: 80px 0 160px 0;
+  text-align: center;
+  width: 65%;
+}
+.info__box-text {
+  color: #FEE7A2 !important;
+}
+
 .fade-in {
   -webkit-animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-in 2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
