@@ -41,7 +41,7 @@
     background-color: $bgc-15;
     background-size: 100%;
     background-repeat: no-repeat;
-    opacity: 0.7;
+    //opacity: 0.7;
     //min-height: 750px;
     
     @include tablet {
@@ -224,7 +224,7 @@
 }
 
 .info {
-    background-color: $bgc-8;
+    background-color: $bgc-15;
     padding: 50px 0 0 0;
     
     &__flex {
