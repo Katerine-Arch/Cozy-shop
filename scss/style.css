@@ -509,6 +509,9 @@ h5 {
     flex-direction: column;
   }
 }
+.info__flex-padding {
+  padding: 230px 0 230px 0;
+}
 .info__box {
   text-align: center;
   display: flex;
