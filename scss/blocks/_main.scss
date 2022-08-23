@@ -237,14 +237,23 @@
         }
         }
 
-
     &__box {
-        width: 50%;
+        //width: 50%;
         text-align: center;
+        display: flex;
+        justify-content: space-between;
 
         @include mobile {
             width: 100%;
         }
+    }
+
+    &__img {
+        width: 50%;
+    }
+
+    &__img-position {
+        display: flex;
     }
 
     &__box-h4 {
@@ -253,6 +262,7 @@
     }
 
     &__box-list {
+        width: 90%;
         list-style-type: none;
         font-size: 28px;
         margin: 0 0 35px 0;
